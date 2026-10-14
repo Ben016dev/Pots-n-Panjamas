@@ -1,0 +1,32 @@
+* {
+
+}
+
+nav {
+  font-family: "Lilita One";
+  font-style: normal;
+}
+
+/*
+permenant marker for descriptions
+Lilita One for nav
+Chicle everything else
+*/
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chicle-regular {
+  font-family: "Chicle", serif;
+  font-weight: 400;
+  font-style: normal;
+}
