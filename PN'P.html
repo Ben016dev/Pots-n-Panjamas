@@ -13,6 +13,21 @@
         <link href="https://fonts.googleapis.com/css2?family=Chicle&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
         <link rel = "stylesheet" href = "styles.css">   
+        <script>
+            let D = 1;
+            function dropdownMenu(){
+                D *= -1;
+                console.log("test");
+                console.log(D);
+                if(D < 0){
+                console.log("testing");
+                document.getElementById("content-holder").style.display = "block";
+                }else{
+                document.getElementById("content-holder").style.display = "none";
+                console.log("confirming");
+            }
+            }
+        </script>
     </head>
     <body id = "PNP">
         <header>
@@ -20,9 +35,23 @@
                 Pots N' Panjamas
             </h1>
             <nav>
-            <a href = "Home.html">
-                Back to home
-            </a>
+                <button type = "button" onclick = "dropdownMenu()" id = "icon">
+                    Placeholder
+                </button>
+                <div id = "content-holder">
+                    <a href = "Home.html" class = "dropdown-content">
+                        Back to home
+                    </a><br><br>
+                    <a href = "" class = "dropdown-content">
+                        Placeholder
+                    </a><br><br>
+                    <a href = "" class = "dropdown-content">
+                        Placeholder
+                    </a><br><br>
+                    <a href = "" class = "dropdown-content">
+                        Placeholder
+                    </a>
+                </div>
             </nav>
         </header>
         <main>

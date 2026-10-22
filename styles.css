@@ -3,6 +3,7 @@
   text-decoration: none;
   border: 0px;
   margin: 0px;
+  color: black;
 }
 
 body {
@@ -23,7 +24,6 @@ header {
 }
 
 h1 {
-    padding: 5px;
     width: 33vw;
     margin-left: 33vw;
 }
@@ -80,10 +80,39 @@ Chicle everything else
   font-style: normal;
 }
 
-#PNP h1 {
-  font-size: 3.6vw;
+.dropdown-content {
+  
 }
 
-#PNP {
-  font-size: 2.3vw;
+#icon {
+  
+  margin-top: 7px;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  background-color: paleturquoise;
+  width: 110px;
+  box-sizing: border-box;
 }
+
+#content-holder{
+  padding: 10px;
+  display: block;
+  background-color: green;
+  box-sizing: border-box;
+  width: 110px;
+  padding-bottom: 15px;
+}
+
+/*#icon:hover #content-holder .dropdown-content {display: block;}*/
+
+@media (max-width: 1540px) {
+  main{
+    background-color: brown;
+  }
+}
+
+/* colors
+Baby blue bde0fe
+leafy green aaf683
+wood brown d4a373
+*/
