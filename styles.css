@@ -96,7 +96,7 @@ Chicle everything else
 
 #content-holder{
   padding: 10px;
-  display: block;
+  display: none;
   background-color: green;
   box-sizing: border-box;
   width: 110px;
