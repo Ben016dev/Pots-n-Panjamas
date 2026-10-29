@@ -20,7 +20,7 @@ header {
     background-color: #5696ce;
     font-family: "Permanent Marker", cursive;
     justify-content: center;
-    height: 60px;
+    height: 70px;
 }
 
 header p {
@@ -48,6 +48,8 @@ main {
   background-color: rgb(92, 59, 46);
   padding: 0px 3px;
   border: 0px 1px;
+  margin-top: 5px;
+  margin-bottom: 50px;
 }
 
 /*
@@ -88,40 +90,75 @@ Chicle everything else
 
 .dropdown-content {
   text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#icon #pointer {
+  width: 50px;
+  height: 25px;
+  margin: 6px 0;
+  margin-left: 25px;
+  font-size: 30px;
+  display: none;
   color: black;
+}
+
+.dropdown-content:hover {
+  background-color: #67a14a;
+}
+
+#thisPage {
+  background-color: #5696ce;
+}
+
+#long {
+  font-size: .8rem;
 }
 
 #icon {
   margin-top: 7px;
   padding-top: 3px;
   padding-bottom: 10px;
-  background-color: paleturquoise;
+  background-color: antiquewhite;
   width: 110px;
   box-sizing: border-box;
   color: black;
+  border-radius: 10px;
+}
+
+#icon #lines div {
+  width: 50px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  margin-left: 25px;
 }
 
 #content-holder{
   padding: 10px;
   display: none;
-  background-color: antiquewhite;
+  background-color: paleturquoise;
   box-sizing: border-box;
   width: 110px;
   padding-bottom: 15px;
   color: black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 /*#icon:hover #content-holder .dropdown-content {display: block;}*/
 
 @media (min-width: 1540px) {
   nav {
-  margin-left: 50px;
+  margin-left: 70px;
 }
 }
 
 @media (min-width: 1955px) {
   nav {
-  margin-left: 50px;
+  margin-left: 100px;
 }
 }
 
@@ -176,4 +213,5 @@ Chicle everything else
 Baby blue bde0fe
 leafy green aaf683
 wood brown d4a373
+repo?
 */
